@@ -1,0 +1,100 @@
+header {
+    background-color: rgba(111, 137, 132, 0.6);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between; /* Распределяет элементы по ширине */
+    padding: 10px; /* Добавить отступы для эстетики */
+    width: 100%; /* Убедитесь, что header занимает всю ширину */
+    box-sizing: border-box; /* Включить padding и border в общую ширину */
+}
+
+.navBtn{
+    background-color:  rgba(111, 137, 132, 0.199);
+    border: none;
+    height: 60px;
+    width: 150px;
+    font-size: 26px;
+}
+
+div {
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.library-bg {
+    background-image: url('./images/library.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* or any desired height */
+}
+
+.counter-bg {
+    background-image: url('./images/counter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* or any desired height */
+}
+
+.sandwich-bg {
+    background-image: url('./images/sandwich.jpg');
+    background-size: cover;
+    /* или contain, в зависимости от ваших предпочтений */
+    background-repeat: repeat;
+    height: 100vh;
+    
+}
+
+.btnSandwich{
+    background-color: rgba(68, 218, 88, 0.956);
+    border: none;
+    margin: 5px;
+    height: 25px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.libraryDiv {
+    background-color: rgba(193, 188, 182, 0.597);
+    display: flex;
+    /* Включить Flexbox */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+    height: 50vh;
+    /* Устанавливаем высоту на 20% высоты экрана */
+    flex-direction: column;
+    /* Расположение элементов по вертикали */
+}
+
+
+.sandwichDiv {
+    background-color: rgba(193, 188, 182, 0.57);
+    display: flex;
+    /* Включить Flexbox */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+    height: 20vh;
+    /* Устанавливаем высоту на 20% высоты экрана */
+    flex-direction: column;
+    /* Расположение элементов по вертикали */
+}
+
+
+
+.counterDiv {
+    background-color: rgba(193, 188, 182, 0.51);
+    display: flex;
+    /* Добавить Flexbox */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+    height: 20vh;
+    /* Устанавливаем высоту на весь экран */
+}
