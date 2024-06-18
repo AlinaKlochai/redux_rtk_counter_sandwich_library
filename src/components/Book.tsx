@@ -1,7 +1,7 @@
 import { FC, useState } from 'react'
-import { Book as BookType } from '../redux/libraryAction'
+
 import { useDispatch } from 'react-redux'
-import { deleteBook, editBook } from '../redux_rtk/librarySlice';
+import { Book as BookType, deleteBook, editBook } from '../redux_rtk/librarySlice';
 
 const Book: FC<{ info: BookType}> = ( {info} ) => {
     const [isEdit, setIsEdit] = useState(false);

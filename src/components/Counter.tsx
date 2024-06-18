@@ -24,14 +24,19 @@ const Counter = () => {
     dispatch(plus(1))
   }
   return (
-    <div className='counterDiv'>
-      <div>Counter: {value} </div>
-      <button onClick={handleMinus}>Minus (Decrement)</button>
-      <button onClick={handlePlus}>Plus (Increment)</button>
-      { status === 'loading' && <p>Loading Person Info..</p> }
-      { status === 'success' && user && <p>{user.name}</p> }
-      { status === 'error' && <p>Error with loading person info... Try again later</p> }
-    </div>
+    <>
+      <div className='counterDiv'>
+        <div>Counter: {value} </div>
+        <button onClick={handleMinus}>Minus (Decrement)</button>
+        <button onClick={handlePlus}>Plus (Increment)</button>
+      </div>
+      <div className='counterDiv'>
+        <p>Work with createAsyncThunk, get person name:</p>
+        {status === 'loading' && <p>Loading Person Info..</p>}
+        {status === 'success' && user && <p>{user.name}</p>}
+        {status === 'error' && <p>Error with loading person info... Try again later</p>}
+      </div>
+    </>
   )
 }
 

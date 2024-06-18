@@ -56,8 +56,34 @@ div {
     font-size: 18px;
 }
 
+.counterDiv {
+    background-color: rgba(193, 188, 182, 0.73);
+    display: flex;
+    /* Добавить Flexbox */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+    height: 20vh;
+    /* Устанавливаем высоту на весь экран */
+}
+
+.sandwichDiv {
+    background-color: rgba(193, 188, 182, 0.514);
+    display: flex;
+    /* Включить Flexbox */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+    height: 20vh;
+    /* Устанавливаем высоту на 20% высоты экрана */
+    flex-direction: column;
+    /* Расположение элементов по вертикали */
+}
+
 .libraryDiv {
-    background-color: rgba(193, 188, 182, 0.597);
+    background-color: rgba(193, 188, 182, 0.73);
     display: flex;
     /* Включить Flexbox */
     justify-content: center;
@@ -70,31 +96,3 @@ div {
     /* Расположение элементов по вертикали */
 }
 
-
-.sandwichDiv {
-    background-color: rgba(193, 188, 182, 0.57);
-    display: flex;
-    /* Включить Flexbox */
-    justify-content: center;
-    /* Центрирование по горизонтали */
-    align-items: center;
-    /* Центрирование по вертикали */
-    height: 20vh;
-    /* Устанавливаем высоту на 20% высоты экрана */
-    flex-direction: column;
-    /* Расположение элементов по вертикали */
-}
-
-
-
-.counterDiv {
-    background-color: rgba(193, 188, 182, 0.51);
-    display: flex;
-    /* Добавить Flexbox */
-    justify-content: center;
-    /* Центрирование по горизонтали */
-    align-items: center;
-    /* Центрирование по вертикали */
-    height: 20vh;
-    /* Устанавливаем высоту на весь экран */
-}

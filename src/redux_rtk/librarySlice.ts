@@ -1,7 +1,7 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { uid } from "uid";
 
-type Book = {
+export type Book = {
     isbn: string // (unique)
     title: string
     year: number
